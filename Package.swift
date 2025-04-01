@@ -2,21 +2,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "SDK",
+    name: "pinpoint-easylocate-sdk",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "SDK",
+            name: "pinpoint-easylocate-sdk",
             targets: ["SDK"]),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "SDK",
-            url: "https://github.com/user-attachments/files/19547480/SDK.xcframework.zip",
-            checksum: "dadc4c7308a7fefb6e100af8bf8f1f6cbc7d5516fb5000a24dbf55157566c6be"
+            name: "pinpoint-easylocate-sdk",
+            url: "https://github.com/pinpoint-positioning/easylocate-ios-sdk/releases/download/1.0/pinpoint_easylocate_sdk.xcframework.zip",
+
+            checksum: "d2b913b4d7000fd0eaadfb4ba1a07f1c98bcf5bb6adee7d3ec7c876812afe7c9"
         )
     ]
 )

@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "pinpoint-easylocate-sdk",
-            targets: ["SDK"]),
+            targets: ["pinpoint-easylocate-sdk"]),
     ],
     dependencies: [],
     targets: [

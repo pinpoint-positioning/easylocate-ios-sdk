@@ -15,9 +15,9 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "pinpoint-easylocate-sdk",
-            url: "https://github.com/pinpoint-positioning/easylocate-ios-sdk/releases/download/12.2.0/pinpoint_easylocate_sdk.xcframework.zip",
+            url: "https://github.com/pinpoint-positioning/easylocate-ios-sdk/releases/download/12.2.1/pinpoint_easylocate_sdk.xcframework.zip",
 
-            checksum: "a38baaabff5e2b01f5fc5562b145ba2d96402ae3741a4a2a0dfa8733f49ab6c6"
+            checksum: "e8c2764ae87540b13b51bc4ae2ea87ec042e28d920fcac64c63594e084fdd708"
         )
     ]
 )

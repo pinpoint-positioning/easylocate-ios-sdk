@@ -17,7 +17,7 @@ let package = Package(
             name: "pinpoint-easylocate-sdk",
             url: "https://github.com/pinpoint-positioning/easylocate-ios-sdk/releases/download/12.2.0/pinpoint_easylocate_sdk.xcframework.zip",
 
-            checksum: "d2b913b4d7000fd0eaadfb4ba1a07f1c98bcf5bb6adee7d3ec7c876812afe7c9"
+            checksum: "a38baaabff5e2b01f5fc5562b145ba2d96402ae3741a4a2a0dfa8733f49ab6c6"
         )
     ]
 )
